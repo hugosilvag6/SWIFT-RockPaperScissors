@@ -24,7 +24,7 @@ struct ContentView: View {
     @State private var choices = ["ROCK", "PAPER", "SCISSORS"]
     @State private var winOrLose = Bool.random()
     @State private var appChoice = Int.random(in: 0...2)
-    @State private var alertMsg = ""
+    @State private var alertMsg = " "
     @State private var showingAlert = false
     @State private var score = 0
     @State private var currentTries = 0
